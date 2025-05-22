@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.splash-container {
+    text-align: center;
+    margin-top: 20%;
+}
+
+button {
+    padding: 10px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
