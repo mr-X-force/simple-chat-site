@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - FrEzra Messenger</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h2>App Settings</h2>
+        <label>Background Color:</label>
+        <input type="color" id="bgColor">
+        <label>Enable Dark Mode:</label>
+        <input type="checkbox" id="darkMode">
+        <label>Chat Font Size:</label>
+        <input type="range" id="fontSize" min="10" max="20">
+        <button onclick="saveSettings()">Save Settings</button>
+    </div>
+    <script src="assets/js/settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - FrEzra Messenger</title>
+    <link rel="stylesheet" href="assets/css/chat.css">
+</head>
+<body>
+    <header>
+        <h2>FrEzra Chat</h2>
+        <button onclick="openSettings()">⚙</button>
+    </header>
+    <div class="chat-container">
+        <div class="chat-list">
+            <ul id="chat-list">
+                <!-- Chat contacts loaded here dynamically -->
+            </ul>
+        </div>
+        <div class="chat-window">
+            <div class="messages" id="messages">
+                <!-- Chat messages loaded here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/chat.js"></script>
+</body>
+</html>
