@@ -1,0 +1,31 @@
+.chat-container {
+    display: flex;
+}
+
+.chat-list {
+    width: 30%;
+    background: #fff;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-window {
+    width: 70%;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px;
+}
+
+.chat-input button {
+    background: #25D366;
+}

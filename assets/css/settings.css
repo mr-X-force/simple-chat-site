@@ -1,0 +1,42 @@
+.settings-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.setting-item label {
+    font-size: 16px;
+    color: #444;
+}
+
+.setting-item input, .setting-item select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.save-settings {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #25D366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
